@@ -12,6 +12,8 @@
 
 5. Lanuch sqlite-web with the 'testsqlite.db'. And show that you are able to visit the sqlite-web portal from your mobile phone.
 
+    Launch using `sqlite_web --host 0.0.0.0 --port 8080 testsqlite.db` to open on port 8080 and listen on all network connections (too allow phone connection).
+
     ![](screenshots/step_5.png)
 
 6. Create a table and import the dataset `flights-export.csv` into testsqlite.db using sqlite-web.
